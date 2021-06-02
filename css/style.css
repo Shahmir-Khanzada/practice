@@ -111,7 +111,7 @@ header li img {
 
 .location .oakdale {
     flex: 2 1 300px;
-    background-color: black;
+    background-color: blue;
     border-color: 1px solid white;
     max-width: 300px;
     flex-wrap: wrap;
