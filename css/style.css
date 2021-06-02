@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    padding: 15px;
+    height: 69px;
+}
+
+header li {
+    display: inline;
+    padding-left: 45px;
+    float: right;
+}
+
+header li a {
+    padding: 13px;
+}
+
+header li img {
+    width: 180px;
+    float: left;
+    margin-left: -1500px;
+    margin-top: -20px;
+}
+
+.backimage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url(../images/img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;    
+    background-position: center;
+}
+
+.title {
+    background-color: black;
+    color: seashell;
+    position: relative;
+    top: 275px;
+    padding: 10px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.info {
+    color: seashell;
+    opacity: 0.9;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 275px;
+}
+
+.container img {
+    display: block;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.location {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.location .downtown {
+    flex: 2 1 300px;
+    background-color: black;
+    border-color: 1px solid white;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    opacity: 1;
+
+}
+
+.location .bayside {
+    flex: 2 1 300px;
+    background-color: black;
+    border-color: 1px solid white;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+.location .oakdale {
+    flex: 2 1 300px;
+    background-color: black;
+    border-color: 1px solid white;
+    max-width: 300px;
+    flex-wrap: wrap;
+    opacity: 1;
+    
+}
+
+.copyright h4 {
+text-align: left;
+}
